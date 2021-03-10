@@ -6,4 +6,6 @@ const prompts = []
 
 //all possible responses
 
-const replies = []
+const replies = [
+    [""]
+]

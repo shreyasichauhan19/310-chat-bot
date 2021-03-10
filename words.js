@@ -3,7 +3,7 @@
 
 const prompts = [
     ["hello", "hilo", "hi", "hey", "heya", "hey", "good morning", "good afternoon", "good evening" ],
-    [""]
+    ["whats up"]
 ]
 
 

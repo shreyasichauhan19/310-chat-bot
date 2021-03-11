@@ -24,7 +24,7 @@ const prompts = [
 ]
 
 
-//all possible responses
+// all possible responses
 
 const replies = [
     ["Hello!", "Hi!", "Hey!", "Hi there!", "Howdy!"],
@@ -46,4 +46,15 @@ const replies = [
     ["That's ok", "I understand", "What do you want to talk about?"],
     ["Please say something :("],
     ["Haha!", "Good one!"]
+]
+
+// randome for any other user input
+
+const alternative = [
+    "Same",
+    "Go on...",
+    "Bro...",
+    "Try again",
+    "I'm listening...",
+    "I don't understand :/"
 ]

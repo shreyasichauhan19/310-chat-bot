@@ -10,7 +10,6 @@ const prompts = [
     ["who created you", "who is your creator", "who made you"],
     ["your name please", "your name", "may i know your name", "what is your name", "what call yourself", "what are you called"],
     ["i love you"],
-    ["happy", "good", "fun", "wonderful", "fantastic", "cool", "awesome" "excited"],
     ["happy", "good", "fun", "wonderful", "fantastic", "cool", "awesome", "excited"],
     ["bad", "bored", "tired", "awful", "horrible", "miserable", "angry", "terrible"],
     ["help me", "tell me story", "tell me joke"],

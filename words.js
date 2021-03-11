@@ -2,6 +2,7 @@
 
 
 const prompts = [
+    // reference
     ["hello", "hilo", "hi", "hey", "heya", "hey", "good morning", "good afternoon", "good evening"],
     ["how are you", "how is life", "how are things", "hows it going"],
     ["what are you doing", "what is going on", "what is up", "whats up"],
@@ -21,6 +22,7 @@ const prompts = [
     ["no", "not sure", "maybe", "no thanks"],
     [""],
     ["haha", "ha", "lol", "hehe", "heehee", "funny", "joke"],
+    // delete later
 
 
     // beginning of bot script (user replies to bot)
@@ -59,6 +61,7 @@ const prompts = [
 // all possible responses
 
 const replies = [
+    // reference
     ["Hello!", "Hi!", "Hey!", "Hi there!", "Howdy!"],
     ["Fine... how are you?", "Pretty well, how are you?", "Fantastic, how are you"],
     ["Nothing much", "About to go to sleep", "Can you guess?", "I don't know actually"],
@@ -78,6 +81,7 @@ const replies = [
     ["That's ok", "I understand", "What do you want to talk about?"],
     ["Please say something :("],
     ["Haha!", "Good one!"],
+    // delete later
 
     
     // beginning of bot script (bot goes first here)
@@ -110,6 +114,7 @@ const replies = [
 // randome for any other user input
 
 const alternative = [
+    // reference
     "Same",
     "Go on...",
     "Bro...",
@@ -117,3 +122,4 @@ const alternative = [
     "I'm listening...",
     "I don't understand :/"
 ]
+// delete later

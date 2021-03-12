@@ -35,7 +35,7 @@ const replies = [
     ["I am glad to hear that! Could I please get your name?"],  //1 Feeling Good
     ["I am very sorry to hear that! Could I please get your name?"],  //2 Feeling bad
     //if either of these two cases are called, get name as variable, then call next array line^^ 
-    ["Nice to meet you (+ name if you wish)! Could you please enter the order number found on your receipt?"],  //3 name response
+    ["Nice to meet you! Could you please enter the order number found on your receipt?"],  //3 name response
     //if this array function is called then call next array line^^
     ["How can we assist you with your product?"], //4 //order number response
     ["We're sorry to hear that this has occured, can you give more specific information about your problem?"], //6

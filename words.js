@@ -8,27 +8,19 @@ const prompts = [
     ["im feeling bad", "im terrible", "im awful"],  //2 Feeling bad
     [""],//cannot expect prompt (name)  3
     [""],//cannot expect prompt (order number)  4
-    ["happy with", "satisfied with", "pleased with", "works"],  //5 Happy
-    ["do not understand", "not working", "need repairs", "damaged"],  //6 Confused/Broken
-    ["hate", "dislike","unhappy", "does not work", "bad quality", "dissatisfied","unsatisfied",], //7 Unhappy
-    [""],  //8
-    [""],  //9
-    [""],  //10
-    ["yes", "no"],  //11
-    [""],  //12
-    [""],  //10
-    [""],  //11
-    ["refund", "replace", "talk"],
-    [""], // no match
-    [""], // no match explain
-    ["refund", "replace", "talk"],
-    [""],
-    [""],
-    ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
-    ["yes", "no"],
-    [""],
-    [""], // google form feedback
-    [""],
+    ["happy with", "satisfied with", "pleased with", "works"],  //5 Happy   go to replies 11
+    ["do not understand", "not working", "need repairs", "damaged", "does not work"],  //6 Confused/Broken  go to replies 6
+    ["hate", "dislike","unhappy", "bad quality", "dissatisfied","unsatisfied",], //7 Unhappy    go to replies 10
+    ["replace", "exchange"], //replace
+    ["refund", "money back"],  //refund
+    ["talk", "executive", "contact", "call", "chat"], // talk to an executive
+    ["help", "help me", "assistance", "assist"], //help go to 15
+    ["yes", "no"],  //premium customer, go to 12 if yes, go to 13 if no
+    ["0, 1, 2, 3"], // bad rating
+    ["yes", "no"], //file a complaint
+    ["4", "5", "6"], // average rating
+    [""], // bad and average rating feedback
+    ["7", "8", "9", "10"], // good rating
 
     //Default Cases
     ["hello", "hilo", "hi", "hey", "heya", "hey", "good morning", "good afternoon", "good evening"],
@@ -67,23 +59,28 @@ const replies = [
     ["Nice to meet you (+ name if you wish)! Could you please enter the order number found on your receipt?"],  //3 name response
     //if this array function is called then call next array line^^
     ["How can we assist you with your product?"], //4 //order number response
-    ["We're sorry to hear that this has occured, can you give more specific information about your problem?"], //5
-    ["I am sorry that this product has given you trouble, could you please tell us further what is broken or confusing?"],  //6
-    ["I am so sorry for your experience. Do you want a replacement, refund, or talk to an executive? Please pick one."],  //7
-    ["Here's the contact information of an executive you may contact between 10:00 AM to 4:00 PM PST."],  //8
-    ["Thank you for sharing your feedback. Hope you have a better experience next time!"],  //9
-    ["We are happy to receive this positive feedback! Would you like to be our premium customer?"],  //10
-    ["Sounds good! Here's the form to fill to be a premium customer."],  //11
-    ["That's okay. Maybe some other time."],  //12
-    ["Thank you for the feedback. Hope we can always serve you well!"],  //13
-    ["What can we help you with? Please specify."],
-    ["Sorry. Could you please explain in detail?"],
-    ["I'm sorry if we're not able to help you with your specific query. I could offer you a refund or a replacement for your order, or I could connect you to an executive."],
-    ["Sorry we cannot help you with your specific query. Here are some FAQs you might want to look into."],
-    ["How would you rate this conversation?"],
-    ["We're so sorry, would you like to file a complaint?"],
-    ["Let us know how we can improve!"],
-    ["Thank you for using our service, we're glad we could be of service!"],
+    ["We're sorry to hear that this has occured, can you give more specific information about your problem?"], //6
+    ["I am sorry that this product has given you trouble, could you please tell us further what is broken or confusing?"],  //7
+    ["I am so sorry for your experience. Do you want a replacement, refund, or talk to an executive? Please pick one."],  //8
+    ["Here's the form to request a replacement."], //replace
+    ["Here's the form to request a refund."], //refund
+    ["Here's the contact information of an executive you may contact between 10:00 AM to 4:00 PM PST."],  //talk to an executive
+    ["Thank you for sharing your feedback. Hope you have a better experience next time!"],  //10 Unhappy
+    ["We are happy to receive this positive feedback! Would you like to be our premium customer?"],  //11 premium customer
+    ["Sounds good! Here's the form to fill to be a premium customer."],  //12 if yes
+    ["That's okay. Maybe some other time."],  //13 if no
+    ["Thank you for the feedback. Hope we can always serve you well!"],  //14 END
+    ["What can we help you with? Please specify."], // 15 help   go to replace refund or talk to an executive if mention
+    ["Sorry. Could you please explain in detail?"], // 16 no match  go to replace refund or talk to an executive if mention
+    ["I'm sorry if we're not able to help you with your specific query. I could offer you a refund or a replacement for your order, or I could connect you to an executive."], //17
+    ["Sorry we cannot help you with your specific query. Here are some FAQs you might want to look into."], //18 no match END
+    ["How would you rate this conversation?"], //19
+    ["We're so sorry, would you like to file a complaint?"], //bad rating
+    ["Here's the form to file a complaint."], //if yes file a complaint, pretend user fills form
+    ["We apologize for the inconvenience, thank you for using our services."] //bad rating after yes or no file complaint END
+    ["Let us know how we can improve!"], //average rating pretend user fills form
+    ["Thank you for letting us know!"], // average rating feedback END
+    ["Thank you for using our service, we're glad we could be of service!"], //good rating END
 
     //default replies:
     ["Hello!", "Hi!", "Hey!", "Hi there!", "Howdy!"],

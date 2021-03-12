@@ -58,7 +58,8 @@ Explanation:
 
 ## Gantt Chart:
 
-*src needed*
+https://user-images.githubusercontent.com/60419500/110990210-425d1f00-8330-11eb-8bc7-0c4b3b66f177.PNG
+https://user-images.githubusercontent.com/60419500/110990212-42f5b580-8330-11eb-901e-144f9686f90a.png
 
 This chart was created with our task list within Trello where we have used the labels as milestones that are all dependent on each other in order to follow our plan based project. The milestones go in order of green-> yellow -> orange  -> red -> purple in gradient order. The milestones made in our plan also act as dependencies for the next task as they are in order. Off of this we assigned people to each task and within Trello we can organize the tasks of each member.
 

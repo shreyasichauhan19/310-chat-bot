@@ -44,7 +44,7 @@ function compare(arrayPrompt, arrayReplies, string) {
     return reply;
 }
 
-funtion addChat(){
+function addChat(){
     const messagesContainer=document.getElementById("messages");
 
     let userDiv =document.createElement("div");
@@ -62,5 +62,4 @@ funtion addChat(){
 
     //keeps most recent messages
     messagesContainer.scrollTop=messagesContainer.scrollHeight-messagesContainer.clientHeight;
-
 }

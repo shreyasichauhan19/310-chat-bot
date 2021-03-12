@@ -19,29 +19,8 @@ const prompts = [
     ["0, 1, 2, 3"], // bad rating
     ["yes", "no"], //file a complaint
     ["4", "5", "6"], // average rating
-    [""], // bad and average rating feedback
     ["7", "8", "9", "10"], // good rating
 
-    //Default Cases
-    ["hello", "hilo", "hi", "hey", "heya", "hey", "good morning", "good afternoon", "good evening"],
-    ["how are you", "how is life", "how is it going"],
-    ["what are you doing", "what is going on", "what is up", "whats up"],
-    ["how old are you"],
-    ["who are you", "are you human", "are you bot", "are you human or bot", "are you bot or human"],
-    ["who created you", "who is your creator", "who made you"],
-    ["your name please", "your name", "may i know your name", "what is your name", "what call yourself", "what are you called"],
-    ["i love you"],
-    ["happy", "good", "fun", "wonderful", "fantastic", "cool", "awesome", "excited"],
-    ["bad", "bored", "tired", "awful", "horrible", "miserable", "angry", "terrible"],
-    ["help me", "tell me story", "tell me joke"],
-    ["ah", "yes", "ok", "okay", "nice", "alright"],
-    ["bye", "good bye", "goodbye", "see you later", "see ya"],
-    ["what should i eat today", "hungry"],
-    ["bro"],
-    ["what", "why", "how", "where", "when", "who"],
-    ["no", "not sure", "maybe", "no thanks"],
-    [""],
-    ["haha", "ha", "lol", "hehe", "heehee", "funny", "joke"]
 ]
 
 
@@ -82,34 +61,4 @@ const replies = [
     ["Thank you for letting us know!"], // average rating feedback END
     ["Thank you for using our service, we're glad we could be of service!"], //good rating END
 
-    //default replies:
-    ["Hello!", "Hi!", "Hey!", "Hi there!", "Howdy!"],
-    ["Fine... how are you?", "Pretty well, how are you?", "Fantastic, how are you"],
-    ["Nothing much", "About to go to sleep", "Can you guess?", "I don't know actually"],
-    ["I am infinite"],
-    ["I am just a bot", "I am a bot. What are you?"],
-    ["The one true God, Javascript"],
-    ["I am nameless", "I don't have a name"],
-    ["I love you too", "Me too"],
-    ["Have you ever felt bad?", "Glad to hear it"],
-    ["Why?", "Why? You shouldn't!", "Try watching TV"],
-    ["What about?", "Once upon a time..."],
-    ["Tell me a story", "Tell me a joke", "Tell me about yourself"],
-    ["Bye", "Goodbye", "See you later"],
-    ["Sushi", "Pizza"],
-    ["Bro!"],
-    ["Great question"],
-    ["That's ok", "I understand", "What do you want to talk about?"],
-    ["Please say something :("],
-    ["Haha!", "Good one!"],
-
-]
-
-//Pulls a random string if user input is completely unknown.
-const defaultResponse = [
-    "My apologies, I dont understand what you are trying to say. Could you rephrase that?",
-    "Please try a different query.",
-    "Please elaborate...",
-    "I don't understand, sorry!",
-    "That does not compute! Please try again."
 ]

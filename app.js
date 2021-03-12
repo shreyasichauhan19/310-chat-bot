@@ -18,12 +18,19 @@ function read(userInput) {
     cleanedInput = cleanedInput.toLowerCase();
     //remove unecessary white spaces
     cleanedInput = cleanedInput.trim();
-    //remove non alphabetical characters
-    cleanedInput = cleanedInput.replace();
+    //remove non alphabetical characters (all prompts are purely alphabetical)
+    cleanedInput = cleanedInput.replace(/[^a-zA-Z0-9]/g, '');
+
+    // find a bot reply based on user input
+    var reply = compare(prompts, replies, cleanedInput);
+    if (reply == ""){// if no bot reply found
+        reply = "Sorry, I didn't quite get that. Try asking a different question.";
+    }
+    addChat(cleanedInput,reply);
 }
 
 function compare(arrayPrompt, arrayReplies, string) {
-    let reply;
+    let reply ="";
     let foundReply = false;
     for (let x = 0; x < arrayPrompt.length; x++) {
         for (let y = 0; y < arrayPrompt[x].length; y++) {

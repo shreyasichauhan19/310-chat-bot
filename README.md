@@ -1,8 +1,9 @@
-#COSC 310 - Project Repository. Cutomer Service Chatbot.
+# COSC 310 - Project Repository. Cutomer Service Chatbot.
 Our respository for the COSC 310 Assignments/Project for group 21.
 
-
 Members include Joshua Medina-Quiaro, Ramisa Mahboob, Fareeha Hayat, Shreyasi Chauhan, and Megan Nguyen.
+
+
 
 # Class Breakdown:
 

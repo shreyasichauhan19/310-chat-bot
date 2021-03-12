@@ -43,3 +43,24 @@ function compare(arrayPrompt, arrayReplies, string) {
     }
     return reply;
 }
+
+funtion addChat(){
+    const messagesContainer=document.getElementById("messages");
+
+    let userDiv =document.createElement("div");
+    userDiv.id="user";
+    userDiv.className="user response";
+    messagesContainer.appendChild(userDiv);
+
+    let botDiv=document.createElement("div");
+    let botText=document.createElement("span");
+    botDiv.id="bot";
+    botDiv.className="bot response";
+    botText.innerHTML="Typing...";
+    botDiv.appendChild(botText);
+    messagesContainer.appendChild(botDiv);
+
+    //keeps most recent messages
+    messagesContainer.scrollTop=messagesContainer.scrollHeight-messagesContainer.clientHeight;
+
+}

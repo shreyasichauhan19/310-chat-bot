@@ -22,11 +22,11 @@ function read(userInput) {
     //remove unecessary white spaces
     cleanedInput = cleanedInput.trim();
     //remove non alphabetical characters (all prompts are purely alphabetical)
-    cleanedInput = cleanedInput.replace(/[^\w ]/, '');
+    cleanedInput = cleanedInput.replace(/[^\w\s]/gi, '');
 
     // find a bot reply based on user input
     var reply = compare(prompts, replies, cleanedInput);
-    if (reply == "") {// if no bot reply found
+    if (reply === "") {// if no bot reply found
         reply = "Sorry, I didn't quite get that. Try asking a different question.";
     }
     addChat(userInput, reply);
@@ -65,16 +65,22 @@ function addChat(userMessage, botMessage) {
     userDiv.innerHTML += userMessage;
 
     messagesContainer.appendChild(userDiv);
-
+    
+    
     let botDiv = document.createElement("div");
     let botText = document.createElement("span");
     botDiv.id = "bot";
     botDiv.className = "bot response";
     botText.innerHTML = "Typing...";
     botDiv.appendChild(botText);
+
+    var delaytime = 1000; //1 second
+
+setTimeout(function() {
     botText.innerHTML = "Bot: " + botMessage;
     botDiv.appendChild(botText);
     messagesContainer.appendChild(botDiv);
+}, delaytime);
 
     //keeps most recent messages
     messagesContainer.scrollTop = messagesContainer.scrollHeight - messagesContainer.clientHeight;

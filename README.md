@@ -98,6 +98,7 @@ Created Java project, and repository
 Writing classes for project
 
 M3) Sunday February 28 2021 1 PM - 3:30 PM
+
 - Created class breakdown structure
 - Coded class structure
 - Wrote bot script (ongoing) https://docs.google.com/document/d/1zeG5EIxBwp9Zs1pyxpFQ05yKEaw1mAj2MkaP1VBdMvI/edit

@@ -22,11 +22,11 @@ function read(userInput) {
     //remove unecessary white spaces
     cleanedInput = cleanedInput.trim();
     //remove non alphabetical characters (all prompts are purely alphabetical)
-    cleanedInput = cleanedInput.replace(/[^\w ]/, '');
+    cleanedInput = cleanedInput.replace(/[^\w\s]/gi, '');
 
     // find a bot reply based on user input
     var reply = compare(prompts, replies, cleanedInput);
-    if (reply == "") {// if no bot reply found
+    if (reply === "") {// if no bot reply found
         reply = "Sorry, I didn't quite get that. Try asking a different question.";
     }
     addChat(userInput, reply);

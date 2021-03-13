@@ -3,6 +3,9 @@ Our respository for the COSC 310 Assignments/Project for group 21.
 
 Members include Joshua Medina-Quiaro, Ramisa Mahboob, Fareeha Hayat, Shreyasi Chauhan, and Megan Nguyen.
 
+### Code Running:
+
+To run the program and test the bot, please open index.html in a browser.
 
 
 # Class Breakdown:
@@ -65,7 +68,12 @@ This chart was created with our task list within Trello where we have used the l
 
 
 ## Limitations:
-General response/ does not answer specific query (?), spelling mistakes, upper/ lower case combinations (eg hELp)
+The limitations of our program are very vast as most of it feigns responsivness. Some general case limiations are:
+ - Specific informational queries cannot be answered as no actual product is shown
+ - Spelling mistakes cannot be accounted for
+ - Specific nouns are feigned to be learned but are not actually recognized
+ - multiple questions do not work
+ - Queries with mutiple emotions do not work (I am disappointed with this product even though my sister is happy with it)
 
 ## Sample Output: 
 
@@ -90,11 +98,31 @@ Created Java project, and repository
 Writing classes for project
 
 M3) Sunday February 28 2021 1 PM - 3:30 PM
-	- Created class breakdown structure
+
+- Created class breakdown structure
 - Coded class structure
-	- … Wrote bot script (ongoing) https://docs.google.com/document/d/1zeG5EIxBwp9Zs1pyxpFQ05yKEaw1mAj2MkaP1VBdMvI/edit
-	- Created proper README
+- Wrote bot script (ongoing) https://docs.google.com/document/d/1zeG5EIxBwp9Zs1pyxpFQ05yKEaw1mAj2MkaP1VBdMvI/edit
+- Created proper README
 
 M4) Wednesday March 3, 2021 2 PM - 3 PM
 	- OpenNLP Maven setup
-M5) Wednesday March 10, 2021 2 PM - …?
+
+M5) Wednesday March 10, 2021 2 PM - 4 PM
+- Revamped program to be HTML Javascript imbedded
+- Created new file structure and class structure for new setup
+- Planned full scale and flow of bot
+- created event listener for user input
+- Added read function to app.js
+- Added compare function to app.js
+- Started adding to words.js
+- Finished writing bot script 
+
+
+M6) Friday March 12, 2021 10:10 AM - 8:00 PM
+- Formatted the chat containers in the HTML and CSS files
+- Fixed the image position on CSS 
+- Edited read function 
+- Edited addChat function
+- Completed words.js
+- Updated README
+

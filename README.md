@@ -24,7 +24,7 @@ This function prints the message typed by the user as well as the response from 
 
 
 ## Words.js
-This class is responsible for holding the datastructure of the prompt words and responses for each sequence. It contains an order 2d list of prompts and responses and as well will hold the default responses to null prompt statements.
+This class is responsible for holding the datastructure of the prompt words and responses for each sequence. It contains an order 2-D list of prompts and responses and as well will hold the default responses to null prompt statements. This essentialy contains two arrays - prompts and responses. Prompts consists of all the possible phrases that the user might enter. 
 
 # Project Waterfall Development Plan:
 

@@ -69,6 +69,8 @@ The key aspect of a waterfall model is gathering all the requirements at the beg
 ## WBS:
 This breakdown structure shows the amount of hours each team member put into the project in our various phases. You can see here we have different categories of work within from the initial planning stages onto the coding and testing of the bot program.
 
+![Work Breakdown Structure](https://github.com/COSC310-Group21/310-chat-bot/blob/main/Work%20Breakdown%20Structure%402x.png)
+
 ## Gantt Chart:
 
 ![The first section of the Gantt Chart](https://user-images.githubusercontent.com/60419500/110990210-425d1f00-8330-11eb-8bc7-0c4b3b66f177.PNG)

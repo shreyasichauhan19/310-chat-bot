@@ -7,6 +7,8 @@ Members include Joshua Medina-Quiaro, Ramisa Mahboob, Fareeha Hayat, Shreyasi Ch
 
 To run the program and test the bot, please open index.html in a browser.
 
+### Link to the Presentation:
+https://drive.google.com/file/d/1GBU4GQIVI5s4NGTmxxGdJdIVavXHbXqI/view?usp=sharing
 
 # Class Breakdown:
 
@@ -90,11 +92,16 @@ The limitations of our program are very vast as most of it feigns responsiveness
 
 ## Sample Output: 
 
-*Src needed*
+![1](https://user-images.githubusercontent.com/60419500/111050770-d51ebc00-840b-11eb-8fb1-8c2bb6dbcff7.PNG)
+![2](https://user-images.githubusercontent.com/60419500/111050771-d5b75280-840b-11eb-8a7c-772be609d949.PNG)
+![3](https://user-images.githubusercontent.com/60419500/111050772-d5b75280-840b-11eb-8f2a-d0358324f266.PNG)
+![4](https://user-images.githubusercontent.com/60419500/111050773-d5b75280-840b-11eb-8163-05e47e346336.PNG)
+![5](https://user-images.githubusercontent.com/60419500/111050774-d64fe900-840b-11eb-80fd-52b715539381.PNG)
 
 ## Limitations Output:
 
-*Src needed*
+![Limitations 1](https://user-images.githubusercontent.com/60419500/111050792-ec5da980-840b-11eb-94d2-c831a30fdc5b.png)
+![Limitations 2](https://user-images.githubusercontent.com/60419500/111050791-ebc51300-840b-11eb-9bf9-80e86b4a8594.png)
 
 ## Meeting Times:
 

@@ -105,10 +105,12 @@ M3) Sunday February 28 2021 1 PM - 3:30 PM
 
 M4) Wednesday March 3, 2021 2 PM - 3 PM
 	- OpenNLP Maven setup
+
 M5) Wednesday March 10, 2021 2 PM - 4 PM
 	- Revamped program to be HTML Javascript imbedded
 	- Created new file structure and class structure for new setup
 	- Planned full scale and flow of bot
+
 M6) Friday March 12, 2021 10:10 AM - 8:00 PM
 	- Coded program to full functionality
 	- Created Updated READ ME with project plan

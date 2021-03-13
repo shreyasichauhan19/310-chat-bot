@@ -6,8 +6,8 @@ const prompts = [
     // beginning of bot script (user replies to bot) hopefully the order
     ["im good", "im fine", "im great", "im decent", "im ok"], //1 Feeling Good
     ["im feeling bad", "im terrible", "im awful"],  //2 Feeling bad
-    [""],//cannot expect prompt (name)  3
-    [""],//cannot expect prompt (order number)  4
+    ["my name", "im called", "call me"],//cannot expect prompt (name)  3
+    ["my order","order number"],//cannot expect prompt (order number)  4
     ["happy with", "satisfied with", "pleased with", "works"],  //5 Happy   go to replies 11
     ["do not understand", "not working", "need repairs", "damaged", "does not work"],  //6 Confused/Broken  go to replies 6
     ["hate", "dislike","unhappy", "bad quality", "dissatisfied","unsatisfied",], //7 Unhappy    go to replies 10

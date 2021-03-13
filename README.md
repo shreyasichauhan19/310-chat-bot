@@ -57,7 +57,7 @@ The key aspect of a waterfall model is gathering all the requirements at the beg
   - Fix where unknown breaks are found
 
 ## WBS:
-This breakdown structure shows the amount of hours each team member put into the project in our various phases. You can see here we have different categories of work within from the inital planning stages onto the coding and testing of the bot program.
+This breakdown structure shows the amount of hours each team member put into the project in our various phases. You can see here we have different categories of work within from the initial planning stages onto the coding and testing of the bot program.
 
 ## Gantt Chart:
 
@@ -72,7 +72,7 @@ The limitations of our program are very vast as most of it feigns responsivness.
  - Specific informational queries cannot be answered as no actual product is shown
  - Spelling mistakes cannot be accounted for
  - Specific nouns are feigned to be learned but are not actually recognized
- - multiple questions do not work
+ - Multiple questions do not work
  - Queries with mutiple emotions do not work (I am disappointed with this product even though my sister is happy with it)
 
 ## Sample Output: 
@@ -111,7 +111,7 @@ M5) Wednesday . . . March 10, 2021 2:00 PM - 4:00 PM
 - Revamped program to be HTML Javascript imbedded
 - Created new file structure and class structure for new setup
 - Planned full scale and flow of bot
-- created event listener for user input
+- Created event listener for user input
 - Added read function to app.js
 - Added compare function to app.js
 - Started adding to words.js
@@ -125,4 +125,5 @@ M6) Friday . . . March 12, 2021 10:10 AM - 8:00 PM
 - Edited addChat function
 - Completed words.js
 - Updated README
+- Finished Work Breakdown Structure
 

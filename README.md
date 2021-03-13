@@ -108,11 +108,21 @@ M4) Wednesday March 3, 2021 2 PM - 3 PM
 	- OpenNLP Maven setup
 
 M5) Wednesday March 10, 2021 2 PM - 4 PM
-	- Revamped program to be HTML Javascript imbedded
-	- Created new file structure and class structure for new setup
-	- Planned full scale and flow of bot
+- Revamped program to be HTML Javascript imbedded
+- Created new file structure and class structure for new setup
+- Planned full scale and flow of bot
+- created event listener for user input
+- Added read function to app.js
+- Added compare function to app.js
+- Started adding to words.js
+- Finished writing bot script 
+
 
 M6) Friday March 12, 2021 10:10 AM - 8:00 PM
-	- Coded program to full functionality
-	- Created Updated READ ME with project plan
-	- Created project presentation
+- Formatted the chat containers in the HTML and CSS files
+- Fixed the image position on CSS 
+- Edited read function 
+- Edited addChat function
+- Completed words.js
+- Updated README
+

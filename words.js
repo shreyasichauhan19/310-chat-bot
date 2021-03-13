@@ -11,7 +11,7 @@ const prompts = [
     ["happy with", "satisfied with", "pleased with", "works"],  //5 Happy   go to replies 11
     ["sign up", "yes", "become premium customer","subscribe"],
     ["no thank you", "not now"],
-    ["do not understand", "not working", "need repairs", "damaged", "does not work"],  //6 Confused/Broken  go to replies 6
+    ["do not understand", "not working", "need repairs", "damaged", "does not work", "broken"],  //6 Confused/Broken  go to replies 6
     ["hate", "dislike","unhappy", "bad quality", "dissatisfied","unsatisfied",], //7 Unhappy    go to replies 10
     ["replace", "exchange"], //replace
     ["refund", "money back","reimburse"],  //refund

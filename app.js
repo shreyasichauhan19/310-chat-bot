@@ -65,16 +65,22 @@ function addChat(userMessage, botMessage) {
     userDiv.innerHTML += userMessage;
 
     messagesContainer.appendChild(userDiv);
-
+    
+    
     let botDiv = document.createElement("div");
     let botText = document.createElement("span");
     botDiv.id = "bot";
     botDiv.className = "bot response";
     botText.innerHTML = "Typing...";
     botDiv.appendChild(botText);
+
+    var delaytime = 1000; //1 second
+
+setTimeout(function() {
     botText.innerHTML = "Bot: " + botMessage;
     botDiv.appendChild(botText);
     messagesContainer.appendChild(botDiv);
+}, delaytime);
 
     //keeps most recent messages
     messagesContainer.scrollTop = messagesContainer.scrollHeight - messagesContainer.clientHeight;

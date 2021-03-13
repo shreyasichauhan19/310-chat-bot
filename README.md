@@ -101,7 +101,7 @@ M3) Sunday . . . February 28, 2021 1:00 PM - 3:30 PM
 
 - Created class breakdown structure
 - Coded class structure
-- Wrote bot script (ongoing) https://docs.google.com/document/d/1zeG5EIxBwp9Zs1pyxpFQ05yKEaw1mAj2MkaP1VBdMvI/edit
+- Wrote bot script https://docs.google.com/document/d/1zeG5EIxBwp9Zs1pyxpFQ05yKEaw1mAj2MkaP1VBdMvI/edit
 - Created proper README
 
 M4) Wednesday . . . March 3, 2021 2:00 PM - 3:00 PM

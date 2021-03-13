@@ -11,10 +11,16 @@ To run the program and test the bot, please open index.html in a browser.
 # Class Breakdown:
 
 ## App.js: 
-This class is the main class that will handle the bots main functionality. It will generate the proper actions in receiving and appending text to the chat bot, it will call words.js in order to find what messages to reply as. It has three main functions read(userInput), compare(arrayPrompt, arrayReplies, string) and addChat(). 
-read(userInput) - cleaning up user input and trying to match it to a prompt in our script with compare(). Then replying with a response with write(). 
-compare(arrayPrompt, arrayReplies, string) - loops through the prompt array until it finds a match to the user's prompt. Once thats found it return the correponding response from the response array. Inner loop stops when user input value matches prompt. Instead of interating through the entire array stop outer loop when reply is found.
-addChat() displays the messages(questions and responses on the screen)
+This class is the main class that will handle the bots main functionality. It listens to the document for user inputs and will generate the proper actions in receiving and appending text to the chat bot, it will call words.js in order to find what messages to reply as. Functions included in app.js are:
+
+### read(userInput)
+This function cleans up the user input and tries to find a match in our prompts array with compare(). Once a match is found, it outputs the reply with addchat().
+
+### compare(arrayPrompt, arrayReplies, string)
+This function takes a string and tries to find a match in arrayPrompt. Once a match is found, the functions returns a corresponding reply from arrayReplies.
+
+### addChat(userMessage, botMessage)
+This function prints the message typed by the user as well as the response from the bot.
 
 
 ## Words.js

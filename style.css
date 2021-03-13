@@ -1,10 +1,11 @@
 body {
-  font-family: 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, Helvetica,
-    sans-serif;
-  background-color: rgba(107, 32, 46, .5);
+
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+	'Geneva', Verdana, sans-serif;
+  background-color: rgba(187, 110, 38, 0.5);
   margin: 0;
   height: 100%;
+  color: rgb(168, 56, 219);
 }
 
 .container {
@@ -39,6 +40,9 @@ body {
 }
 
 input { 
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+	'Geneva', Verdana, sans-serif;
+
 	border: 0; 
 	padding: 15px; 
 	margin-left: auto;

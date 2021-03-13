@@ -3,6 +3,9 @@ Our respository for the COSC 310 Assignments/Project for group 21.
 
 Members include Joshua Medina-Quiaro, Ramisa Mahboob, Fareeha Hayat, Shreyasi Chauhan, and Megan Nguyen.
 
+### Code Running:
+
+To run the program and test the bot, please open index.html in a browser.
 
 
 # Class Breakdown:

@@ -80,7 +80,7 @@ This chart was created with our task list within Trello where we have used the l
 
 
 ## Limitations:
-The limitations of our program are very vast as most of it feigns responsivness. Some general case limiations are:
+The limitations of our program are very vast as most of it feigns responsiveness. Some general case limitations are:
  - Specific informational queries cannot be answered as no actual product is shown
  - Spelling mistakes cannot be accounted for
  - Handles synonyms to a certain extent
@@ -92,7 +92,7 @@ The limitations of our program are very vast as most of it feigns responsivness.
 
 *Src needed*
 
-## Limiations Output:
+## Limitations Output:
 
 *Src needed*
 

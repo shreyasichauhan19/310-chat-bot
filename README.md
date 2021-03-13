@@ -82,8 +82,9 @@ This chart was created with our task list within Trello where we have used the l
 The limitations of our program are very vast as most of it feigns responsivness. Some general case limiations are:
  - Specific informational queries cannot be answered as no actual product is shown
  - Spelling mistakes cannot be accounted for
+ - Handles synonyms to a certain extent
  - Specific nouns are feigned to be learned but are not actually recognized
- - multiple questions do not work
+ - Multiple questions do not work
  - Queries with mutiple emotions do not work (I am disappointed with this product even though my sister is happy with it)
 
 ## Sample Output: 

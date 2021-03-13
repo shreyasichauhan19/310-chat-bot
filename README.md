@@ -1,4 +1,4 @@
-# COSC 310 - Project Repository. Cutomer Service Chatbot.
+# COSC 310 - Project Repository. Customer Service Chatbot.
 Our respository for the COSC 310 Assignments/Project for group 21.
 
 Members include Joshua Medina-Quiaro, Ramisa Mahboob, Fareeha Hayat, Shreyasi Chauhan, and Megan Nguyen.
@@ -67,8 +67,7 @@ The key aspect of a waterfall model is gathering all the requirements at the beg
   - Fix where unknown breaks are found
 
 ## WBS:
-Explanation:
-This breakdown structure shows the amount of hours each team member put into the project in our various phases. You can see here we have different categories of work within from the inital planning stages onto the coding and testing of the bot program.
+This breakdown structure shows the amount of hours each team member put into the project in our various phases. You can see here we have different categories of work within from the initial planning stages onto the coding and testing of the bot program.
 
 ## Gantt Chart:
 
@@ -97,44 +96,45 @@ The limitations of our program are very vast as most of it feigns responsivness.
 
 ## Meeting Times:
 
-M1) Monday . . . February 22 2021 12 PM - 2PM
-Discussed project and decided who would work on which parts of plan
-Learned CASE tools and how to create our chat bot
-Wrote Project Plan Description
-Wrote SDLC Description
-Created the tasks for our Trello
+M1) Monday . . . February 22, 2021 12:00 PM - 2:00 PM
+- Discussed project and decided who would work on which parts of plan
+- Learned CASE tools and how to create our chat bot
+- Wrote Project Plan Description
+- Wrote SDLC Description
+- Created the tasks for our Trello
 
-M2) Wednesday … February 24 2021 2 PM- 3:30 PM
-Created our Gantt chart off of our Trello and organized it
-Created Java project, and repository
-Writing classes for project
+M2) Wednesday . . . February 24, 2021 2:00 PM- 3:30 PM
+- Created our Gantt chart off of our Trello and organized it
+- Created Java project, and repository
+- Writing classes for project
 
-M3) Sunday February 28 2021 1 PM - 3:30 PM
+M3) Sunday . . . February 28, 2021 1:00 PM - 3:30 PM
 
 - Created class breakdown structure
 - Coded class structure
-- Wrote bot script (ongoing) https://docs.google.com/document/d/1zeG5EIxBwp9Zs1pyxpFQ05yKEaw1mAj2MkaP1VBdMvI/edit
+- Wrote bot script https://docs.google.com/document/d/1zeG5EIxBwp9Zs1pyxpFQ05yKEaw1mAj2MkaP1VBdMvI/edit
 - Created proper README
 
-M4) Wednesday March 3, 2021 2 PM - 3 PM
+M4) Wednesday . . . March 3, 2021 2:00 PM - 3:00 PM
 - OpenNLP Maven setup
 
-M5) Wednesday March 10, 2021 2 PM - 4 PM
+M5) Wednesday . . . March 10, 2021 2:00 PM - 4:00 PM
 - Revamped program to be HTML Javascript imbedded
 - Created new file structure and class structure for new setup
 - Planned full scale and flow of bot
-- created event listener for user input
+- Created event listener for user input
 - Added read function to app.js
 - Added compare function to app.js
 - Started adding to words.js
 - Finished writing bot script 
 
 
-M6) Friday March 12, 2021 10:10 AM - 8:00 PM
+M6) Friday . . . March 12, 2021 10:10 AM - 8:00 PM
 - Formatted the chat containers in the HTML and CSS files
 - Fixed the image position on CSS 
 - Edited read function 
 - Edited addChat function
 - Completed words.js
 - Updated README
+- Finished Work Breakdown Structure
 

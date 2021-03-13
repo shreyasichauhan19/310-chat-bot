@@ -58,6 +58,7 @@ The key aspect of a waterfall model is gathering all the requirements at the beg
 
 ## WBS:
 Explanation:
+This breakdown structure shows the amount of hours each team member put into the project in our various phases. You can see here we have different categories of work within from the inital planning stages onto the coding and testing of the bot program.
 
 ## Gantt Chart:
 

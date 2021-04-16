@@ -15,6 +15,8 @@ import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import pkg from '@vitalets/google-translate-api';
 const {translate} = pkg;
+import pkg1 from 'wikijs';
+const {wiki} = pkg1;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -63,7 +65,7 @@ app.post('/message', function(req, res) {
 
   sentimentAnalysis(NLPClientInput);
   translater(NLPClientInput);
-
+  wikipedia("roses");
   // nameEntityRecognition() //
 
   res.send({ cleanedInput: NLPClientInput}); //Sends back this output in JSON format (Put info in brackets)
@@ -119,6 +121,15 @@ function translater(string){
     console.error(err);
 });
 }
+    function wikipedia(string){
+      
+      wiki
+      .page(string)
+      .then(page => page.info('alterEgo'))
+      .then(console.log); // Bruce Wayne
+
+    }
+
 app.listen(1337);
 
 // Create your instance of wink ner & use default config.

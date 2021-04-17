@@ -141,7 +141,7 @@ function wikipedia(string){
 function translater(string){
   pkg( string , {to: 'en'}).then(res => {
     console.log(res.text);
-    //=> I speak English
+
     console.log(res.from.language.iso);
     //=> nl
     console.log("-------------End of Google Translate API-------------");

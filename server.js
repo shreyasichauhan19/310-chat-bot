@@ -15,8 +15,10 @@ import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import pkg from '@vitalets/google-translate-api';
 const {translate} = pkg;
-import pkg1 from 'wikijs';
-const {wiki} = pkg1;
+import pkg1 from 'yargs';
+const {argv} = pkg1;
+import pkg2 from 'request';
+const {request} = pkg2;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -65,14 +67,14 @@ app.post('/message', function(req, res) {
 
   sentimentAnalysis(NLPClientInput);
   translater(NLPClientInput);
-  wikipedia("roses");
+  wikipedia(NLPClientInput);
   // nameEntityRecognition() //
 
   res.send({ cleanedInput: NLPClientInput}); //Sends back this output in JSON format (Put info in brackets)
   console.log("Server sending: " + NLPClientInput);
 
-});
 
+});
 
 
 
@@ -111,24 +113,43 @@ function sentimentAnalysis(string) {
     .then(result => console.log(result))
 
 }
+//////wikipedia//////////////////
+function wikipedia(string){
+ 
+  //var query = string;
+  var url = `https://en.wikipedia.org/w/api.php?action=opensearch&search="+ ${string} +"&format=json`
+  
+  pkg2(url, function(err, response, body) {
+    if (err) {
+        var error = "cannot connect to the server";
+        console.log(error);
+    } else {
+        var wiki = JSON.parse(body);
+        for (var i = 0; i < wiki[1].length; i++) {
+            var message = `You searched for ${wiki[1][i]}: And these are the details - ${wiki[2][i]} Follow this link to read more - ${wiki[3][i]}` + "\n";
+            console.log(message);
+           
+        }
+        console.log("-------------End of Wikipedia API-------------");
+  
+    }
+  
+  });
+}
+
+/////////////google translate///////////////////
 function translater(string){
   pkg( string , {to: 'en'}).then(res => {
     console.log(res.text);
     //=> I speak English
     console.log(res.from.language.iso);
     //=> nl
+    console.log("-------------End of Google Translate API-------------");
 }).catch(err => {
     console.error(err);
 });
 }
-    function wikipedia(string){
-      
-      wiki
-      .page(string)
-      .then(page => page.info('alterEgo'))
-      .then(console.log); // Bruce Wayne
-
-    }
+    
 
 app.listen(1337);
 
